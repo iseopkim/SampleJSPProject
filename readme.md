@@ -1,8 +1,9 @@
 # 기능 목록
 - 사용자 관리
-  - 가입, 탈퇴
+  - 가입/탈퇴
+  - 로그인/로그아웃
   - 사용자 테이블
-    - user_id, pw, location
+    - user_id, pw
 - Todo
   - Todo 테이블
     - todo_id, user_id, datetime, content
