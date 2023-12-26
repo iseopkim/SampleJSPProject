@@ -6,13 +6,13 @@
     - user_id, pw
 - Todo
   - Todo 테이블(todotable)
-    - todo_id, user_id , date_time, content, foreign key (user_id) references usertable(user_id)
+    - todo_id, user_id, date_time, content //foreign key (user_id) references usertable(user_id)
 - 날씨
   - 위치 요청 기능 포함? http://www.gisdeveloper.co.kr/?p=11131
 - 일정
   - 구글 캘린더 연동
-  - 일정 테이블
-    - 
+  - 일정 테이블(schedtable)
+    - sched_id, user_id, date_time, content //foreign key (user_id) references usertable(user_id)
 - 뉴스 스크랩
   - 네이버 뉴스
 - 금융
