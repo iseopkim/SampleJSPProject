@@ -1,9 +1,17 @@
 # 기능 목록
+- 사용자 관리
+  - 가입, 탈퇴
+  - 사용자 테이블
+    - user_id, pw, location
 - Todo
+  - Todo 테이블
+    - todo_id, user_id, datetime, content
 - 날씨?
   - 위치 요청 기능 포함? http://www.gisdeveloper.co.kr/?p=11131
 - 일정
   - 구글 캘린더 연동
+  - 일정 테이블
+    - 
 - 뉴스 스크랩
   - 네이버 뉴스
 - 금융
