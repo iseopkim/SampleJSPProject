@@ -1,0 +1,1 @@
+CREATE TABLE todotable (todo_id int NOT NULL PRIMARY KEY, user_id varchar(40) not null, date_time datetime not null, content varchar(1000) not null, foreign key (user_id) references usertable(user_id));

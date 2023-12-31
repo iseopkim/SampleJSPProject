@@ -7,9 +7,7 @@
 
 <c:choose>
 	<c:when test="${cookie.UID.value != null}">
-		<%
-			response.sendRedirect("main.jsp");
-		%>
+		<c:redirect url="main.jsp"></c:redirect>
 	</c:when>
 	<c:otherwise>
 		${cookie.UID}

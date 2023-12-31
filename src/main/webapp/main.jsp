@@ -10,6 +10,7 @@
 		<div>
 			${cookie.UID.value}으로 로그인함
 			<a href="logout.jsp">로그아웃</a>
+			<a href="delete.jsp">회원탈퇴</a>
 		</div>
 		<div>
 			<div>To-do</div>
