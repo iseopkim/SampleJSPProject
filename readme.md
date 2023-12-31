@@ -2,7 +2,7 @@
 - 사용자 관리
   - [x] usertable 스키마
     - user_id varchar(40) not null primary key
-    - user_pw varchar(20) not null
+    - user_pw varchar(40) not null
   - [x] 가입
   - [ ] 탈퇴
   - [x] 로그인(쿠키)
