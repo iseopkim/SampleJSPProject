@@ -1,18 +1,18 @@
 # 기능 목록
 - 사용자 관리
   - [x] usertable 스키마
-    - user_id varchar(20) not null primary key
+    - user_id varchar(40) not null primary key
     - user_pw varchar(20) not null
   - [x] 가입
   - [ ] 탈퇴
-  - [ ] 로그인
-  - [ ] 로그아웃
+  - [ ] 로그인(쿠키)
+  - [ ] 로그아웃(쿠키)
 - To-do
   - [ ] todotable 스키마
-    - todo_id
-    - user_id
-    - date_time
-    - content
+    - todo_id int not null primary key
+    - user_id varchar(40) not null
+    - date_time datetime not null
+    - content varchar(1000) not null
     - foreign key (user_id) references usertable(user_id)
   - [ ] 할일 생성
   - [ ] 할일 수정
