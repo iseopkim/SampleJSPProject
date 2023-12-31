@@ -4,11 +4,11 @@
     - user_id varchar(40) not null primary key
     - user_pw varchar(40) not null
   - [x] 가입
-  - [ ] 탈퇴
+  - [x] 탈퇴
   - [x] 로그인(쿠키)
   - [x] 로그아웃(쿠키)
 - To-do
-  - [ ] todotable 스키마
+  - [x] todotable 스키마
     - todo_id int not null primary key
     - user_id varchar(40) not null
     - date_time datetime not null
