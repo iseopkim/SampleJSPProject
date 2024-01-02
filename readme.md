@@ -12,7 +12,8 @@
     - todo_id int not null primary key
     - user_id varchar(40) not null
     - date_time datetime not null
-    - content varchar(1000) not null
+    - todo_content varchar(1000) not null
+    - todo_title varchar(100) not null
     - foreign key (user_id) references usertable(user_id)
   - [ ] 할일 생성
   - [ ] 할일 수정
