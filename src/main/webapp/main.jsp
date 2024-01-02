@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <%@ include file="static/common_style.html" %>
+<%@ include file="static/main_style.html" %>
 
 <c:choose>
 	<c:when test="${cookie.UID != null}">
@@ -12,19 +13,21 @@
 			<a href="logout.jsp">로그아웃</a>
 			<a href="delete.jsp">회원탈퇴</a>
 		</div>
-		<div>
+		<div class="widget">
 			<div>To-do</div>
+			<a href="#" onClick="window.open('todo_form.jsp','name','width=600,height=400')">+</a>
+			
 		</div>
-		<div>
+		<div class="widget">
 			<div>날씨</div>
 		</div>
-		<div>
+		<div class="widget">
 			<div>캘린더</div>
 		</div>
-		<div>
+		<div class="widget">
 			<div>뉴스</div>
 		</div>
-		<div>
+		<div class="widget">
 			<div>금융</div>
 		</div>
 	</c:when>
